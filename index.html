@@ -6,10 +6,11 @@
         <title> Polina Yukhnevich </title>
     </head>
     <body>
+      <div class="container-centered">
         <div class="card">
             <img class="card-photo" src="img/me.jpg" alt="Polina Yukhnevich">
             <h1 class="card-title"> Polina Yukhnevich </h1>
-            <div class="contacts">
+            <div class="contact-icons">
               
                 <a  href="tg://resolve?domain=@polyukha">
                   <img class="icon" src="img/telegram.png" alt="telegram">
@@ -17,27 +18,29 @@
                 <a href="mailto:yukhnevichpolina@gmail.com">
                 <img class="icon" src="img/mail_icon.png">
                 </a>
-                
                 <a href="https://github.com/PolinaYu">                      
-                    <img class="icon" src="img/github.png">
-                </a>
+                  <img class="icon" src="img/github.png">
+              </a>
                 <a href="https://www.linkedin.com/in/polina-yukhnevich-347b6b202/">                      
                   <img class="icon" src="img/linkedin.png">
               </a>
             </div>
         </div>
-        <article class="sheet">
+        <main class="sheet">
             <h2 >About me</h2>
+            <article>
             <p>
-                Hi, my name is Polina Yukhnevich.
-                I'm a student of the Faculty of Applied Mathematics and Computer Science of the Belarusian State University. 
+                Hi, my name is Polina Yukhnevich. I'm living in Minsk, Belarus. Now I'm a student of the Faculty of Applied Mathematics and Computer Science of the Belarusian State University.
+            </p>
+            <p>
                 I want to become a professional in the field of web development. That is why I'm currently studing at the Rolling Scopes school.
             </p>
+          </article>
   
             <section>
               <h2>Education</h2>
               <p>
-                BSU FAMCS 2018-2021
+                BSU FAMCS 2018-2022
               </p>
   
             </section>
@@ -55,9 +58,54 @@
                   <li>SQL</li>
                 </ul>
               </div>
+            </section> 
+            <section>
+              <h2>Languages</h2>
+              <ul>
+                <li>English B1+</li>
+                <li>Russian native</li>
+              </ul>
             </section>
+            <section>
+              <h2>Code example</h2>
+                <pre>
+                  <code>
+  static class Square extends JPanel {
+    JLabel label = new JLabel();
 
-            
-        </article>
+    public Square() {
+        setBackground(Color.white);
+        setLayout(new GridBagLayout());
+        label.setFont(new Font("Times New Roman", Font.BOLD, 40));
+        add(label);
+    }
+  }
+                  </code>
+                </pre>
+            </section>
+            <section class="contacts">
+              <h2>Contacts</h2>
+              <ul>
+                <li>
+                  <img src="img/telephone.png" alt="Phone Icon" width="30" height="30">
+                  <p>+375 (25) 728-94-43</p>
+                </li>
+                <li>
+                  <img src="img/mail_icon.png" alt="Email Icon" width="30" height="30">
+                  <p>yukhnevichpolina@gmail.com</p>
+                </li>
+              </main>
+
+
+        <footer>
+          <div class="footer-year">2021</div>
+          <div class="footer-github">
+            <a target="_blank" href="https://github.com/PolinaYu"><i class="fab fa-github"></i>Me on GitHub</a>
+          </div>
+          <div class="footer-rsschool">
+            <a target="_blank" href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="RSSchool link" /></a>
+          </div>
+        </footer>
+      </div>
     </body>
 </html>
