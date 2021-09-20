@@ -1,18 +1,20 @@
 body {
     margin: 0;
     background: url("./img/pattern.png");
-
-    font-family: Tahoma;
-    line-height: 1.5;
-    font-size: 18px;
 }
 .title{
     font-size: 45px;
-    color: sienna;
 }
 h2{
     font-size: 25px;
     color:#16595d;
+}
+.container-centered{
+    margin: 20px auto;
+    width: 1024px;
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 18px;
 }
 .card{
     width: 400px;
@@ -38,22 +40,82 @@ h2{
 .card-text{
     text-align: center;
     font-size:16px;
+    color:black
 }
-.sheet{width: 800px;
+.contact-icons{
+    display: inline-block;
+    align-items:center;
+    text-decoration: none;
+    color: var(--dark-gray-color);
+    margin: 0 50px;
+}
+
+.sheet{
+    width: 1000px;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 5px 10px #ccc;
     border-radius: 10px;
 }
-.contacts{
-    display: inline-block;
-    align-items:baseline;
-}
 
 .icon{
-    width: 40px;
-    height: 40px;
+    width: 26px;
+    height: 26px;
     margin: 0 auto;
     padding: 20px;
 }
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+  
+.contacts a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+  
+main :not(.contacts) ul {
+    list-style-type: disc;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+}
+  
+.footer-year {
+    width: 100px;
+    text-align: center;
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+  
+.footer-github > a {
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.footer-github > a > i {
+    margin-right: 10px;
+    color: var(--bg-color);
+}
+  
+.footer-rsschool > a > img {
+    width: 100px;
+    position: relative;
+    top: 3px;
+}
+  
