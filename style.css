@@ -11,13 +11,13 @@ h2{
 }
 .container-centered{
     margin: 20px auto;
-    width: 1024px;
+    width: 80%;
     font-family: Tahoma;
     line-height: 1.5;
     font-size: 18px;
 }
 .card{
-    width: 400px;
+    width: 35%;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
@@ -43,15 +43,14 @@ h2{
     color:black
 }
 .contact-icons{
-    display: inline-block;
-    align-items:center;
-    text-decoration: none;
-    color: var(--dark-gray-color);
-    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 20%;
 }
 
 .sheet{
-    width: 1000px;
+    width: 80%;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
@@ -63,7 +62,6 @@ h2{
     width: 26px;
     height: 26px;
     margin: 0 auto;
-    padding: 20px;
 }
 .contacts li img {
     vertical-align: middle;
